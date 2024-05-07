@@ -91,9 +91,9 @@ console.log(isLeap(2021));  -> 윤년이 아닙니다.
 
 function isLeap(year) {
   if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
-    console.log("윤년이 맞습니다.");
+    return "윤년이 맞습니다.";
   } else {
-    console.log("윤년이 아닙니다.");
+    return "윤년이 아닙니다.";
   }
 }
 
